@@ -1,5 +1,6 @@
 import {Button} from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
             <h1 className="text-black mb-6 text-6xl font-bold">Job finder app</h1>
             <p className="text-muted-foreground mb-10 text-xl">Some motivation text here</p>
             <div>
-              <Button size="lg" className="h-12 px-8 text-lg font-medium">Start for free <ArrowRight className="ml-2" /></Button>
+              <Link href="/sign-up">
+                <Button size="lg" className="h-12 px-8 text-lg font-medium">Start for free <ArrowRight className="ml-2" /></Button>
+              </Link>
             </div>
           </div>
         </section>
