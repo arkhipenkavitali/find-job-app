@@ -3,6 +3,9 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
+
+
+  // console.log(favouriteIdsSet)
   return (
     <div className="flex min-h-screen flex-col bg-white">
       <div className="flex-1">
@@ -15,6 +18,12 @@ export default function Home() {
                 <Button size="lg" className="h-12 px-8 text-lg font-medium">Start for free <ArrowRight className="ml-2" /></Button>
               </Link>
             </div>
+          </div>
+        </section>
+
+        <section className="border-t bg-white py-16">
+          <div>
+            
           </div>
         </section>
       </div>
